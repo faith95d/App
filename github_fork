@@ -1,0 +1,350 @@
+Last login: Sun Jun 17 09:19:13 on console
+Apples-MacBook-Pro:~ ledung95d$ cd /Users/apple/Desktop/leuducanh 
+Apples-MacBook-Pro:leuducanh ledung95d$ git clone https://github.com/lehuudungle/TestVoiDung
+Cloning into 'TestVoiDung'...
+fatal: unable to access 'https://github.com/lehuudungle/TestVoiDung/': Could not resolve host: github.com
+Apples-MacBook-Pro:leuducanh ledung95d$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+  remote
+Apples-MacBook-Pro:leuducanh ledung95d$ git remote
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ ls
+Apples-MacBook-Pro:leuducanh ledung95d$ cd /Users/apple/Desktop/leuducanh 
+Apples-MacBook-Pro:leuducanh ledung95d$ git clone https://github.com/lehuudungle/TestVoiDung
+Cloning into 'TestVoiDung'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Apples-MacBook-Pro:leuducanh ledung95d$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ cd /Users/apple/Desktop/leuducanh/TestVoiDung 
+Apples-MacBook-Pro:TestVoiDung ledung95d$ cd 
+.git/              Untitled Document  
+Apples-MacBook-Pro:TestVoiDung ledung95d$ cd u
+-bash: cd: u: No such file or directory
+Apples-MacBook-Pro:TestVoiDung ledung95d$ cd 
+.git/              Untitled Document  
+Apples-MacBook-Pro:TestVoiDung ledung95d$ cd ../
+Apples-MacBook-Pro:leuducanh ledung95d$ cd 
+.DS_Store    TestVoiDung/ 
+Apples-MacBook-Pro:leuducanh ledung95d$ cd 
+.DS_Store    TestVoiDung/ 
+Apples-MacBook-Pro:leuducanh ledung95d$ cd 
+.DS_Store    TestVoiDung/ 
+Apples-MacBook-Pro:leuducanh ledung95d$ cd 
+.DS_Store    TestVoiDung/ 
+Apples-MacBook-Pro:leuducanh ledung95d$ cd TestVoiDung/
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote -v
+origin  https://github.com/lehuudungle/TestVoiDung (fetch)
+origin  https://github.com/lehuudungle/TestVoiDung (push)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote add leu https://github.com/leutest1/TestVoiDung
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote add congty https://github.com/leutest1/TestVoiDung
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote -v
+congty  https://github.com/leutest1/TestVoiDung (fetch)
+congty  https://github.com/leutest1/TestVoiDung (push)
+leu https://github.com/leutest1/TestVoiDung (fetch)
+leu https://github.com/leutest1/TestVoiDung (push)
+origin  https://github.com/lehuudungle/TestVoiDung (fetch)
+origin  https://github.com/lehuudungle/TestVoiDung (push)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull congty
+From https://github.com/leutest1/TestVoiDung
+ * [new branch]      develop    -> congty/develop
+ * [new branch]      master     -> congty/master
+You asked to pull from the remote 'congty', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Your branch is up-to-date with 'origin/master'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ cd /Users/apple/Desktop/leuducanh/TestDevelopment 
+Apples-MacBook-Pro:TestDevelopment ledung95d$ git pull develop
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestDevelopment ledung95d$ cd ../
+Apples-MacBook-Pro:leuducanh ledung95d$ git pull develop
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ git pull develop next
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ 
+Display all 1513 possibilities? (y or n)
+Apples-MacBook-Pro:leuducanh ledung95d$ cd TestDevelopment/
+Apples-MacBook-Pro:TestDevelopment ledung95d$ git checkout develop
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestDevelopment ledung95d$ git checkout develop
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestDevelopment ledung95d$ cd ../
+Apples-MacBook-Pro:leuducanh ledung95d$ git checkout develop
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ git checkout
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:leuducanh ledung95d$ cd TestVoiDung/
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Your branch is up-to-date with 'origin/master'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout develop
+Branch develop set up to track remote branch develop from congty.
+Switched to a new branch 'develop'
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull congty
+Already up-to-date.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull origin next
+fatal: Couldn't find remote ref next
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull develop next
+fatal: 'develop' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull develop
+fatal: 'develop' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Your branch is up-to-date with 'congty/develop'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull origin develop
+fatal: Couldn't find remote ref develop
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull congty
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/leutest1/TestVoiDung
+   928fa58..0024bad  develop    -> congty/develop
+Updating 928fa58..0024bad
+Fast-forward
+ fordevelopbranch | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fordevelopbranch
+Apples-MacBook-Pro:TestVoiDung ledung95d$ cd /Users/apple/Desktop/leuducanh/TestVoiDung/master 
+Apples-MacBook-Pro:master ledung95d$ git add -all
+error: did you mean `--all` (with two dashes ?)
+Apples-MacBook-Pro:master ledung95d$ git add --all
+Apples-MacBook-Pro:master ledung95d$ git branch
+* develop
+  master
+Apples-MacBook-Pro:master ledung95d$ cd /Users/apple/Desktop/leuducanh/TestLan2 
+Apples-MacBook-Pro:TestLan2 ledung95d$ git clone https://github.com/lehuudungle/TestVoiDung
+Cloning into 'TestVoiDung'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Apples-MacBook-Pro:TestLan2 ledung95d$ git remote add congty https://github.com/leutest1/TestVoiDung
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestLan2 ledung95d$ git remote add congty https://github.com/leutest1/TestVoiDung
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestLan2 ledung95d$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestLan2 ledung95d$ git checkout
+fatal: Not a git repository (or any of the parent directories): .git
+Apples-MacBook-Pro:TestLan2 ledung95d$ cd /Users/apple/Desktop/leuducanh/TestLan2/TestVoiDung 
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Your branch is up-to-date with 'origin/master'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote add congty https://github.com/leutest1/TestVoiDung
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote -v
+congty  https://github.com/leutest1/TestVoiDung (fetch)
+congty  https://github.com/leutest1/TestVoiDung (push)
+origin  https://github.com/lehuudungle/TestVoiDung (fetch)
+origin  https://github.com/lehuudungle/TestVoiDung (push)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Your branch is up-to-date with 'origin/master'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+* master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git pull congty
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/leutest1/TestVoiDung
+ * [new branch]      develop    -> congty/develop
+ * [new branch]      master     -> congty/master
+You asked to pull from the remote 'congty', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch -a
+* master
+  remotes/congty/develop
+  remotes/congty/master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Your branch is up-to-date with 'origin/master'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+* master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch -a
+* master
+  remotes/congty/develop
+  remotes/congty/master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout develop
+Branch develop set up to track remote branch develop from congty.
+Switched to a new branch 'develop'
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+  develop
+* master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout develop
+Switched to branch 'develop'
+Your branch is up-to-date with 'congty/develop'.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+  fordevelopbranch
+Please commit your changes or stash them before you switch branches.
+Aborting
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+  fordevelopbranch
+Please commit your changes or stash them before you switch branches.
+Aborting
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git commit -m "update"
+On branch develop
+Your branch is up-to-date with 'congty/develop'.
+
+Changes not staged for commit:
+  modified:   fordevelopbranch
+
+no changes added to commit
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch -a
+* develop
+  master
+  remotes/congty/develop
+  remotes/congty/master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote -v
+congty  https://github.com/leutest1/TestVoiDung (fetch)
+congty  https://github.com/leutest1/TestVoiDung (push)
+origin  https://github.com/lehuudungle/TestVoiDung (fetch)
+origin  https://github.com/lehuudungle/TestVoiDung (push)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git add --all
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git commit -m "update code"
+[develop a4efa2f] update code
+ 1 file changed, 1 insertion(+)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push
+remote: Permission to leutest1/TestVoiDung.git denied to lehuudungle.
+fatal: unable to access 'https://github.com/leutest1/TestVoiDung/': The requested URL returned error: 403
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push origin
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 855 bytes | 855.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/lehuudungle/TestVoiDung
+ * [new branch]      develop -> develop
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push congty
+remote: Permission to leutest1/TestVoiDung.git denied to lehuudungle.
+fatal: unable to access 'https://github.com/leutest1/TestVoiDung/': The requested URL returned error: 403
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+* develop
+  master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git add -all
+error: did you mean `--all` (with two dashes ?)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git add --all
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git commit -m "sua code"
+[develop 3173dc3] sua code
+ 1 file changed, 1 insertion(+)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push origin
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 324 bytes | 324.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/lehuudungle/TestVoiDung
+   a4efa2f..3173dc3  develop -> develop
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+* develop
+  master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout -b lehuudung
+Switched to a new branch 'lehuudung'
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+  develop
+* lehuudung
+  master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git nano hoc.md
+git: 'nano' is not a git command. See 'git --help'.
+
+The most similar commands are
+  annotate
+  daemon
+Apples-MacBook-Pro:TestVoiDung ledung95d$ nano hoc.md
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git add -all
+error: did you mean `--all` (with two dashes ?)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git add --all
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+  develop
+* lehuudung
+  master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push lehuudung
+fatal: 'lehuudung' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git commit -m "tao nhanh moi"
+[lehuudung 8c01cf5] tao nhanh moi
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hoc.md
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push lehuudung
+fatal: 'lehuudung' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git checkout
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git branch
+  develop
+* lehuudung
+  master
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+  remote
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git remote -v
+congty  https://github.com/leutest1/TestVoiDung (fetch)
+congty  https://github.com/leutest1/TestVoiDung (push)
+origin  https://github.com/lehuudungle/TestVoiDung (fetch)
+origin  https://github.com/lehuudungle/TestVoiDung (push)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push origin
+fatal: The current branch lehuudung has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin lehuudung
+
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push origin 
+fatal: The current branch lehuudung has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin lehuudung
+
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push origin lehuudung
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lehuudungle/TestVoiDung
+ * [new branch]      lehuudung -> lehuudung
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git add --all
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git commit -m "them tu vao file hoc"
+[lehuudung 283bc99] them tu vao file hoc
+ 1 file changed, 1 insertion(+)
+Apples-MacBook-Pro:TestVoiDung ledung95d$ git push origin lehuudung
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lehuudungle/TestVoiDung
+   8c01cf5..283bc99  lehuudung -> lehuudung
+Apples-MacBook-Pro:TestVoiDung ledung95d$ 
