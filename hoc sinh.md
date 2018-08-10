@@ -1,1 +1,1 @@
-hoc sinh la hoc sinh
+hoc sinh
