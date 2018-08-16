@@ -1,1 +1,1 @@
-hoc sinh
+hoc sinh trung hoc
