@@ -1,2 +1,1 @@
-song xo so  song truoc
-song sau la song nao
+song que thanh hoa
